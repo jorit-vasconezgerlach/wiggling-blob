@@ -16,20 +16,28 @@ body {
     width: 200px;
     height: 200px;
     background: #CA3216;
-    animation: wiggle 5s ease-in-out infinite;
+    animation: wiggle 4s ease-in-out infinite;
 }
 
+/* If someone has time and is creativ he/she could try to make a really wiggly animation :) */
+/* Pleas send me the code: jorit@vasconezgerlach.de */
 @keyframes wiggle {
     0% {
-        border-radius: 20% 80% 30% 50% / 20% 90% 40% 30%;
+        border-radius: 35% 38% 17% 56% / 67% 52% 24% 23%;
+    }
+    20% {
+        border-radius: 40% 25% 40% 45% / 53% 32% 33% 23%;
     }
     40% {
-        border-radius: 50% 30% 20% 60% / 30% 50% 30% 80%;
+        border-radius: 22% 35% 53% 29% / 34% 72% 13% 39% ;
+    }
+    60% {
+        border-radius: 35% 38% 17% 56% / 67% 52% 24% 23%;
     }
     80% {
-        border-radius: 40% 50% 20% 90% / 10% 40% 90% 60%;
+        border-radius: 0%;
     }
     100% {
-        border-radius: 20% 80% 30% 50% / 20% 90% 40% 30%;
+        border-radius: 35% 38% 17% 56% / 67% 52% 24% 23%;
     }
 }
