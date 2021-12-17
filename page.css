@@ -18,6 +18,7 @@ body {
     height: 200px;
     background: #CA3216;
     animation: wiggle 4s linear infinite;
+    transform: scale(1);
 }
 
 /* If someone has time and is creativ he/she could try to make a really wiggly animation :) */
@@ -25,8 +26,10 @@ body {
 @keyframes wiggle {
     0% {
         border-radius: 35% 38% 17% 56% / 67% 52% 24% 23%;
+        transform: scale(1.1);
     }
     5% {
+        transform: scale(1);
         border-radius: 50% 50% 20% 56% / 20% 30% 40% 40%;
     }
     20% {
@@ -42,6 +45,7 @@ body {
         border-radius: 50% 50% 20% 56% / 20% 30% 40% 40%;
     }
     100% {
+        transform: scale(1.1);
         border-radius: 35% 38% 17% 56% / 67% 52% 24% 23%;
     }
 }
